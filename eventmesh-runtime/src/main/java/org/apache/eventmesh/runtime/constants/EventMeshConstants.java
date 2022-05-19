@@ -68,22 +68,12 @@ public class EventMeshConstants {
 
     public static final String PURPOSE_SUB = "sub";
 
-    public static final String PURPOSE_ALL = "all";
-
     public static final String DATE_FORMAT = "yyyy-MM-dd HH:mm:ss.SSS";
-
-
-    public static final String BORN_TIMESTAMP = "BORN_TIME";
-    public static final String STORE_TIMESTAMP = "STORE_TIME";
-    public static final String LEAVE_TIMESTAMP = "LEAVE_TIME";
-    public static final String ARRIVE_TIMESTAMP = "ARRIVE_TIME";
 
     public static final String KEYS_UPPERCASE = "KEYS";
     public static final String KEYS_LOWERCASE = "keys";
     public static final String RR_REQUEST_UNIQ_ID = "RR_REQUEST_UNIQ_ID";
     public static final String TTL = "ttl";
-
-    public static final String TAG = "TAG";
 
     public static final String MANAGE_SUBSYSTEM = "subsystem";
     public static final String MANAGE_IP = "ip";
@@ -99,10 +89,6 @@ public class EventMeshConstants {
 
     public static final String EVENTMESH_SEND_BACK_IP = "eventmeshsendbackip";
 
-    public static final String EVENTMESH_REGISTRY_ADDR_KEY = "eventMeshRegistryAddr";
-
-    public static int DEFAULT_TIME_OUT_MILLS = 5 * 1000;
-
     public static final String RR_REPLY_TOPIC = "rr-reply-topic";
 
     public static final String PROPERTY_MESSAGE_CLUSTER = "cluster";
@@ -110,10 +96,6 @@ public class EventMeshConstants {
     public static final String PROPERTY_MESSAGE_TTL = "ttl";
 
     public static final String PROPERTY_MESSAGE_KEYS = "keys";
-
-    public static final String PROPERTY_MESSAGE_REPLY_TO = "REPLY_TO";  //requester clientId
-
-    public static final String PROPERTY_RR_REQUEST_ID = "RR_REQUEST_UNIQ_ID";
 
     public static final String LEAVE_TIME = "leave" + Constants.MESSAGE_PROP_SEPARATOR + "time";            //leaveBrokerTime
     public static final String ARRIVE_TIME = "arrive" + Constants.MESSAGE_PROP_SEPARATOR + "time";

@@ -39,27 +39,7 @@ public class Constants {
 
     public static final String EVENTMESH_MESSAGE_CONST_TTL = "ttl";
 
-    public static final Integer DEFAULT_CLIENT_UNACK = 12;
-
-    public static final String CONSTANTS_SERVICE_DESC_ENV = "env";
-
-    public static final String CONSTANTS_SERVICE_DESC_VERSION = "version";
-
-    public static final String CONSTANTS_INSTANCE_DESC_ENV = "env";
-
-    public static final String CONSTANTS_INSTANCE_DESC_IDC = "idc";
-
-    public static final String CONSTANTS_INSTANCE_DESC_SYSID = "sysId";
-
-    public static final String CONSTANTS_INSTANCE_DESC_IP = "ip";
-
-    public static final String CONSTANTS_INSTANCE_DESC_PORT = "port";
-
-    public static final String KEY_CONSTANTS_INSTANCE_DESC_PID = "pid";
-
     public static final String RMB_UNIQ_ID = "rmbuniqid";
-
-    public static final String IDC_SEPERATER = "-";
 
     public static final String PROPERTY_MESSAGE_TIMEOUT = "timeout";
 
